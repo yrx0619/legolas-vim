@@ -23,5 +23,5 @@ cd ~ && rm -rf vim && git clone https://github.com/vim/vim.git && cd vim
     --enable-gui=gtk2 \
     --enable-cscope \
     --prefix=/usr/local
-make VIMRUNTIMEDIR=/usr/local/share/vim/vim81
+make VIMRUNTIMEDIR=/usr/local/share/vim/vim82
 sudo make install
